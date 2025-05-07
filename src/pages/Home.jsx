@@ -24,7 +24,7 @@ function Home() {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center min-w-full w-full h-dvh">
+      <div className="flex justify-center items-center min-w-full w-full h-dvh text-3xl font-semibold">
         Loading...
       </div>
     );
