@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { InfinitySpin } from "react-loader-spinner";
 import ProductItem from "../components/ProductItem";
 
 function Home() {
@@ -26,12 +25,7 @@ function Home() {
   if (loading) {
     return (
       <div className="flex justify-center items-center min-w-full w-full h-dvh">
-        <InfinitySpin
-          visible={true}
-          width="200"
-          color="#ff0033"
-          ariaLabel="infinity-spin-loading"
-        />
+        Loading...
       </div>
     );
   }
